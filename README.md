@@ -8,6 +8,16 @@ lasting form of madness.
 
 Pull requests welcome.
 
+## Usage
+
+```bash
+vagrant up
+vagrant zlogin
+git clone https://github.com/sax/ruby_mdb
+cd ruby_mdb
+./setup.sh
+```
+
 ## Contributions
 
 * I will buy you a beer, or spirits, or a pony. I get to choose.
