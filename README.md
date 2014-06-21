@@ -18,6 +18,18 @@ cd ruby_mdb
 ./setup.sh
 ```
 
+#### Generate a core file
+
+```bash
+ruby fixtures/simple_stack.rb
+```
+
+In another terminal:
+
+```bash
+gcore `pgrep -f fixtures/simple_stack`
+```
+
 ## Contributions
 
 * I will buy you a beer, or spirits, or a pony. I get to choose.
